@@ -24,7 +24,7 @@ const Content = props => (
             <Route path="/useMemo" element={<UseMemo />}/>
             <Route path="/useContext" element={<UseContext />}/>
             <Route path="/useReducer" element={<UseReducer />}/>
-            <Route path="/useCusto" element={<UseCustom />}/>
+            <Route path="/useCustom" element={<UseCustom />}/>
             <Route path="*" element={<NotFound />}/>
         </Routes>
     </main>
